@@ -1,3 +1,6 @@
+# Fatmug
+## Vendor management Assignment
+
 Setup steps
 1) Clone this repository on your local machine
 2) Go inside the Fatmug directory
