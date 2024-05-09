@@ -3,10 +3,11 @@ Setup steps
 2) Go inside the Fatmug directory
 3) Install django using `pip install django` (Make sure python is installed on your system)
 4) We are using rest_framework, so use `pip install djangorestframework` to use it.
-5) For token based authentication, we have to create a user using `python manage.py createsuperuser` to generate a token.
-6) After creating a user, use the command `python manage.py drf_create_token <your_username>`
+5) Use the command `python manage.py migrate` which will create required tables in your database.
+6) For token based authentication, we have to create a user using `python manage.py createsuperuser` to generate a token.
+7) After creating a user, use the command `python manage.py drf_create_token <your_username>`
    your result will be like this `Generated token 893f38d0382f9bfaaf69784cfbd5bb31110d1856 for user <username>`
-7) Now, run the server using `python manage.py runserver`
+8) Now, run the server using `python manage.py runserver`
 
 Now you api is live on localhost 8000
 
